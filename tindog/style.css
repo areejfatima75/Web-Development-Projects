@@ -1,0 +1,121 @@
+body{
+    text-align: center !important;
+}
+h1,h2,h3{
+    font-family: 'Montserrat', sans-serif;
+}
+h2{
+    font-size: 2.5rem !important;     /* adjust if needed */
+    line-height: 1.5 !important;
+}
+p{
+    color: #8f8f8f;
+}
+.container-fluid {
+  padding: 7% 15% !important;
+}
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.white-section{
+    background-color: #fff;
+    color: #000;
+}
+/* navbar */
+#title {
+    
+    text-align: left;
+}
+#title .container-fluid {
+  padding: 3% 15% 7% !important;
+}
+.navbar{
+    padding:0 0 4.5rem !important;
+}
+.container{
+    padding: 0 !important;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem !important; 
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem !important;
+}
+/* title section */
+.big-heading{
+    font-weight: 900;
+    font-size: 3rem !important;       /* adjust if needed */
+    line-height: 1.4 !important;
+}
+.download-button{
+    margin: 5%  3% 5% 0 !important;
+}
+.title-image{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 24%;
+}
+/* features section */
+#features{
+    position: relative;
+    /* z-index: 1; */
+}
+.feature-box{
+    padding: 5% !important;
+}
+.icons{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icons:hover{
+    color: #ff4c68;
+}
+/* testimonials section */
+#testimonials{
+    background-color: #ef8172;
+}
+.testimonial-image{
+    width: 15%;
+    border-radius: 50%;
+    margin: 20px;
+}
+/* press section */
+#press{
+    padding-bottom: 3%;
+    background-color: #ef8172;
+}
+.press-logo{
+    width: 13%;
+    margin: 20px 20px 50px;
+}
+/* pricing section */
+#pricing{
+   padding: 100px;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+/* call to action section */
+
+/* footer section */
+.social-icons{
+    margin: 20px 10px;
+}
+/* media queries */
+@media (max-width: 1000px) {
+    #title {
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        width: 60%;
+        transform: rotate(0);
+    }
+}
